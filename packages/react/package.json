@@ -1,0 +1,23 @@
+{
+  "name": "@lva-ui/react",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@lva-ui/eslint-config": "*",
+    "@lva-ui/tokens": "*",
+    "@lva-ui/ts-config": "*",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "@lva-ui/ts-config/base.json",
+  "include": ["src"]
+}
