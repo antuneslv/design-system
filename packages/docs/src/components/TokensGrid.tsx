@@ -1,11 +1,11 @@
 import '../styles/tokens-grid.css'
 
-interface TokensGridProps {
+type TokensGridType = {
   tokens: Record<string, string>
   hasRemValue?: boolean
 }
 
-export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
+export function TokensGrid({ tokens, hasRemValue = false }: TokensGridType) {
   return (
     <table className="tokens-grid">
       <thead>
