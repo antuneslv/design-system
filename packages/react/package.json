@@ -24,6 +24,8 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.0.3",
+    "@radix-ui/react-checkbox": "^1.0.4",
     "@stitches/react": "^1.2.8",
     "phosphor-react": "^1.4.1"
   }
