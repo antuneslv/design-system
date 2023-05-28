@@ -1,0 +1,3 @@
+{
+  "extends": "@lva-ui/eslint-config"
+}
