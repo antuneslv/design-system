@@ -10,10 +10,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@lva-ui/react": "*",
-    "@lva-ui/tokens": "*",
-    "@lva-ui/eslint-config": "*",
     "@babel/core": "^7.22.1",
+    "@lva-ui/eslint-config": "*",
+    "@lva-ui/ts-config": "*",
     "@storybook/addon-essentials": "7.0.18",
     "@storybook/addon-interactions": "7.0.18",
     "@storybook/addon-links": "7.0.18",
@@ -28,5 +27,11 @@
     "react-dom": "18.2.0",
     "storybook": "7.0.18",
     "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@lva-ui/react": "*",
+    "@lva-ui/tokens": "*",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2"
   }
 }
