@@ -10,7 +10,6 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.22.1",
     "@lva-ui/eslint-config": "*",
     "@lva-ui/ts-config": "*",
     "@storybook/addon-essentials": "7.0.18",
@@ -21,8 +20,6 @@
     "@storybook/react-vite": "7.0.18",
     "@storybook/testing-library": "0.0.14-next.2",
     "@vitejs/plugin-react": "^4.0.0",
-    "babel-loader": "^9.1.2",
-    "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "storybook": "7.0.18",
